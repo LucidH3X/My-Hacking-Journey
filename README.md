@@ -1,2 +1,12 @@
-# 100-days-of-hacking
-100 Days of hacking challenge journey 
+# I've joined the #100DaysOfHacking Challenge
+
+## Contents
+
+
+The themes covered are:
+
+* 
+
+## Note
+
+* 

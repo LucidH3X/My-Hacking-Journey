@@ -6,7 +6,13 @@
 
 The themes covered are:
 
-* 
+* Python for scritps
+* Network hacking
+* Pentesting
+* Linux
+* Nmap
+* CTF
+* Bug Hunting
 
 ## Note
 

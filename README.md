@@ -1,5 +1,6 @@
 # #100DaysOfHacking Challenge
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqT2LDlQqb-FFmkerSud1xFJPgo5zuj6texg&usqp=CAU">
+
 ## Contents
 * [Info / Topics](README.md)
 * [Log - click here to see my progress](log.md)

@@ -16,7 +16,9 @@ The themes covered so far are:
 
 * Pre Security - tryhackme.com (Started )
 
-## Certs Earned 
+## Certifications earned
+
+## Side Projects
 
 ## Notes
 

@@ -4,17 +4,21 @@
 * [Info / Topics](README.md)
 * [Log - click here to see my progress](log.md)
 
-The themes covered are:
+The themes covered so far are:
 
-* Python for scritps
-* Network hacking
-* Pentesting
 * Linux
-* Nmap
-* CTF
-* Bug Hunting
+* Scripting with Python
+* Shells and Privilege Escalation
+* Exploitation
+* NMAP
 
-## Note
+## Classes taken 
+
+* Pre Security - tryhackme.com (Started )
+
+## Certs Earned 
+
+## Notes
 
 * 
 

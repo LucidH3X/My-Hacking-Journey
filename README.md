@@ -1,5 +1,5 @@
 # #100DaysOfHacking Challenge
-<img src="images/myimage.jpg">
+<img src="https://freerangestock.com/sample/39267/digital-malware-concept--black-widow-spider-in-the-crosshairs.jpg">
 ## Contents
 * [Info / Topics](README.md)
 * [Log - click here to see my progress](log.md)

@@ -1,4 +1,4 @@
-# I've joined the #100DaysOfHacking Challenge
+# #100DaysOfHacking Challenge
 
 ## Contents
 * [Info / Topics](README.md)

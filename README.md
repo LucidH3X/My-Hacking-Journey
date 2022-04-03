@@ -1,5 +1,5 @@
 # #100DaysOfHacking Challenge
-
+<img src="images/myimage.jpg">
 ## Contents
 * [Info / Topics](README.md)
 * [Log - click here to see my progress](log.md)

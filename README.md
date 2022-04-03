@@ -22,5 +22,5 @@ The themes covered so far are:
 
 ## Notes
 
-* 
+* Social links https://beacons.ai/lucid.h3x Follow me!
 

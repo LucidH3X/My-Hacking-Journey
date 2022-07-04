@@ -13,6 +13,36 @@ The themes covered so far are:
 * Exploitation
 * NMAP
 
+## Learning Path
+
+ Network +
+   - Started 7-4-2022
+ 
+- Security +
+
+- eJPT
+
+- eCPPT
+
+- OSCP
+
+**Supplemental Learning**
+
+- Tryhackme Full complete
+   - Started 7-4-2022
+
+- Hackthebox Full complete
+
+- Penttest accadmy Full complete
+
+- Brup Site Training Full complete
+
+- Python Class
+
+- Bash Class 
+
+- Linux Class
+
 ## Classes taken 
 
 * Pre Security - tryhackme.com (Started )

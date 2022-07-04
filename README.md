@@ -15,8 +15,7 @@ The themes covered so far are:
 
 ## Learning Path
 
- Network +
-   - Started 7-4-2022
+ Network +   - Started 7-4-2022
  
 - Security +
 
@@ -28,8 +27,7 @@ The themes covered so far are:
 
 **Supplemental Learning**
 
-- Tryhackme Full complete
-   - Started 7-4-2022
+- Tryhackme Full complete  - Started 7-4-2022
 
 - Hackthebox Full complete
 
@@ -44,8 +42,6 @@ The themes covered so far are:
 - Linux Class
 
 ## Classes taken 
-
-* Pre Security - tryhackme.com (Started )
 
 ## Certifications earned
 

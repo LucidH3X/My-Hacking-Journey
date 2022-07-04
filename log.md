@@ -1,7 +1,7 @@
-# 100 Days Of Hacking - Log
+# 365 Days Of Hacking - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 1: February 30, 2016 
+##### 
 
 **Today's Progress**: 
 
@@ -9,8 +9,8 @@
 
 **Link to work:** 
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: February 30, 2016 
+##### 
 
 **Today's Progress**: 
 

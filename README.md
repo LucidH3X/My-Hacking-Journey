@@ -7,11 +7,7 @@
 
 The themes covered so far are:
 
-* Linux
-* Scripting with Python
-* Shells and Privilege Escalation
-* Exploitation
-* NMAP
+* 
 
 ## Learning Path
 

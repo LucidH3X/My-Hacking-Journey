@@ -1,4 +1,4 @@
-# #365DaysOfHacking Challenge
+# 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqT2LDlQqb-FFmkerSud1xFJPgo5zuj6texg&usqp=CAU">
 
 ## Contents
@@ -17,7 +17,7 @@ The themes covered so far are:
 
 - Network +   (Started 7-4-2022)
  
-- Security +
+- Security
 
 - eJPT
 

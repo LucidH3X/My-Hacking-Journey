@@ -1,5 +1,5 @@
 # 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqT2LDlQqb-FFmkerSud1xFJPgo5zuj6texg&usqp=CAU">
+<img src="https://thumbs.dreamstime.com/b/glowing-digital-red-skull-wallpaper-hacking-cyber-risk-concept-d-rendering-glowing-digital-skull-wallpaper-118097022.jpg">
 
 ## Contents
 * [Info / Topics](README.md)

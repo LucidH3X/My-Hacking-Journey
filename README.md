@@ -1,7 +1,10 @@
 # 
-<img src="https://cdn.pixabay.com/photo/2020/05/25/08/54/banner-5217681_960_720.jpg">
+<p align="center">
+<img src="https://i.pinimg.com/originals/33/5f/6d/335f6d0c74c29626008bae58feb98808.gif">
+</p>
 
-## Contents
+
+## Contents <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 * [Info / Topics](README.md)
 * [Log - click here to see my progress](log.md)
 
@@ -9,8 +12,7 @@ The themes covered so far are:
 
 * 
 
-## Learning Path
-
+## <h2> Learning Path <img src = "https://cdn.dribbble.com/users/119045/screenshots/2639162/code_icon_2.gif" width = 62px> </h2>
 - Network +   (Started 7-4-2022)
  
 - Security
@@ -21,7 +23,7 @@ The themes covered so far are:
 
 - OSCP
 
-**Supplemental Learning**
+**Supplemental Learning** <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
 - Tryhackme Full complete  (Started 7-4-2022)
 
@@ -37,13 +39,13 @@ The themes covered so far are:
 
 - Linux Class
 
-## Classes taken 
+## Classes taken <img src = "https://c.tenor.com/_DOBjnGspYAAAAAM/code-coding.gif" width = 32px> </h2>
 
-## Certifications earned
+## Certifications earned <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
-## Side Projects
+## Side Projects <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
-## Notes
+## Notes <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
 * Social links https://beacons.ai/lucid.h3x Follow me!
 

@@ -4,7 +4,7 @@
 </p>
 
 
-## Contents <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
+## Contents <img src = "https://c.tenor.com/RkILblKtLTEAAAAd/ms-wake-up.gif" width = 32px> </h2>
 * [Info / Topics](README.md)
 * [Log - click here to see my progress](log.md)
 
@@ -12,7 +12,7 @@ The themes covered so far are:
 
 * 
 
-## <h2> Learning Path <img src = "https://cdn.dribbble.com/users/119045/screenshots/2639162/code_icon_2.gif" width = 62px> </h2>
+## <h2> Learning Path <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 - Network +   (Started 7-4-2022)
  
 - Security
@@ -39,7 +39,7 @@ The themes covered so far are:
 
 - Linux Class
 
-## Classes taken <img src = "https://c.tenor.com/_DOBjnGspYAAAAAM/code-coding.gif" width = 32px> </h2>
+## Classes taken <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
 ## Certifications earned <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 

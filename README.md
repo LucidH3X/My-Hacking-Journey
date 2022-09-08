@@ -13,7 +13,6 @@ The themes covered so far are:
 * 
 
 ## <h2> Learning Path <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
-- Network +   (Started 7-4-2022)
  
 - Security
 

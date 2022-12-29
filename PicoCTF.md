@@ -13,7 +13,6 @@ Today I started Pico go the first one done for general skills I was able to set 
 
 I need to figure out how to get get the man python to work pn python 3 or find a older versure #noob! but progress will happen 
 
-**Link to work:** 
 # Obedient cat
 1. copy the url for the flag form  the main page
 2. ran wget in ubuntu with the url to get the file in my Pico folder

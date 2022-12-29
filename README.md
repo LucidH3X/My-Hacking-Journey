@@ -26,7 +26,7 @@ The themes covered so far are:
 
 - Tryhackme Full complete  (Started: )
 
-- PicoCTF Full Sweep (started:12-28-2022)
+- PicoCTF Full Sweep (started: **12-28-2022** )
 
 - Hackthebox Full complete
 

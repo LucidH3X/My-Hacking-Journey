@@ -14,6 +14,7 @@
 1. copy the url for the flag form  the main page
 2. ran wget in ubuntu with the url to get the file in my Pico folder
 3. use cat of flag file to reveal the flag
+![](https://i.imgur.com/23UepdY.png)
 **Complete**
 ---
 # Python Wrangling

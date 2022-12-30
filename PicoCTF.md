@@ -21,6 +21,7 @@ I need to figure out how to get get the man python to work pn python 3 or find a
 ![](https://i.imgur.com/23UepdY.png)
 
 ==Complete==
+
 ---
 
 # Python Wrangling
@@ -47,6 +48,7 @@ Need to work on maintaing my list of commands and tools to better help me when i
 ![](https://i.imgur.com/qwZav0d.png)
 
 ==Complete==
+
 ---
 # Wave a flag
 1. Started by using `wget` to retrieve  the file

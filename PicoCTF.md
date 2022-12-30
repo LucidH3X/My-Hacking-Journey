@@ -48,8 +48,24 @@ Need to work on maintaing my list of commands and tools to better help me when i
 
 ==Complete==
 ---
+# Wave a flag
+1. Started by using `wget` to retrieve  the file
+2. Then ran `chmod +x warm` to make it into a executable
+3. ran `./ warm` to run it
+4.  ran `./warm -h` it gave me the flag
+![](https://i.imgur.com/zK0WNHc.png)
 
-# 
+==Complete==
+
+---
+# Nice netcat...
+1. I started off by using command `nc mercury.picoctf.net 43239`
+2.  after running the command I was given a string of text that I put into a decoder to give me the flag as seen in the pic below easy peezy.
+![](https://i.imgur.com/VrYTU4g.png)
+
+==Complete==
+
+--- 
 
 
 

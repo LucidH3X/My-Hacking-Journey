@@ -56,7 +56,7 @@ Need to work on maintaing my list of commands and tools to better help me when i
 ![](https://i.imgur.com/zK0WNHc.png)
 
 ==Complete==
-
+ 
 ---
 # Nice netcat...
 1. I started off by using command `nc mercury.picoctf.net 43239`

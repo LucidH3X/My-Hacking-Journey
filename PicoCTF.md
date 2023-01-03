@@ -69,17 +69,25 @@ Need to work on maintaing my list of commands and tools to better help me when i
 
 --- 
 
-
-
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+### Day 3: January 03, 2023 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
 ##### 
 
 < Today's Progress: >
-
+Woke up and ran a ctf at **6:30 am** to ge the brain moving before work
 
 < Thoughts: >
+Im starting to figure out the `chmod +x` and when to use `cat` alot more now without having to readup or watch videos as much which makes me realy happy the practice is paying off and its stick to memeory.
 
+# Static ain't always noise
+1. I started off with using `wget` on both the static and the bash script
+2. I now had both files in the directory
+3. I tried to use `cat` on both but just found code that was all scrambled
+4. Ran `chmod +x` on the .sh file to make it a executable then ran it with `/ltdis.sh static` This popped up a list of stuff that was actually readable. I was able to scroll through and found the flag.
+![](https://i.imgur.com/lIZY5no.png)
 
+**Complete**
+
+---
 ### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
 ##### 
 

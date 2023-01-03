@@ -9,14 +9,14 @@
 * [Log - click here to see my progress](log.md)
 
 ## 5 Month goals by may 2023
-- Security + cert
+- Security + cert **Started 1-9-2023**
 - PicoCTF 50%
 - HTB 
 	- tier 0
 	- tier 1
 	- tier 2
-- TryHackMe 
-	- pre security
+- TryHackMe **Started 1-3-2023**
+	- pre security 
 	- beginner cybersecurity 
 	- complete beginner 
 - BanditOverTheWire
@@ -36,9 +36,9 @@
 
 **Supplemental Learning** <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
-- Tryhackme Full complete  (Started: )
+- Tryhackme Full complete  (Started: ** 1-3-2023** )
 
-- PicoCTF Full Sweep (started: **12-28-2022** )
+- PicoCTF Full Sweep (Started: **12-28-2022** )
 
 - Hackthebox Full complete
 

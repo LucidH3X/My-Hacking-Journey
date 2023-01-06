@@ -88,14 +88,24 @@ Im starting to figure out the `chmod +x` and when to use `cat` alot more now wit
 **Complete**
 
 ---
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+### Day 4: January 05, 2023 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
 ##### 
 
 < Today's Progress: >
-
+Today I didnt get much done  CTF wise but was able to get one in before bed 
 
 < Thoughts: >
+It will be a useful tool latter on to get around the system without having to type out full words
 
+# Tab, Tab, Attack
+1. started off by using wget on the file to get it in the sytem
+2. Once it was there we unzipped it then had to install a program to help use auto tab in linux terminal
+3. after that we spammed `cd` and tab till we got to the last file were we then ran cat to get the flag
+![](https://i.imgur.com/EHr1O6P.png)
+
+**Complete**
+
+---
 
 ### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
 ##### 

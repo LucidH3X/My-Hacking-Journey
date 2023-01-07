@@ -107,6 +107,88 @@ It will be a useful tool latter on to get around the system without having to ty
 
 ---
 
+### Day 5: January 06, 2023 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+##### 
+
+< Today's Progress: >
+Today I got a CTF done at lunch at work and going to try and do another after work tonight to catch up a bit
+
+< Thoughts: >
+Today was fun with SSH more of a refresher but still pretty fun
+
+# Magikarp Ground Mission
+1. Downloaded SSH to Ubuntu WSL
+2. Loaded instance
+3. SSH into `ssh ctf-player@venus.picoctf.net -p 56061` using password `6d448c9c`
+4. It listed 2 files that were 1 of something so I cat into each one
+![](https://i.imgur.com/J2Y0Smy.png)
+![](https://i.imgur.com/BVNbl16.png)
+5. I realized I missed 2 of 3 so had to back track
+6. `cd drop-in` brought me to the other directory to get the last part of the flag I missed
+7. Had to cd to the root folder with `cd /`
+8. then `cd ~`
+9. then found the last part of the flag
+![](https://i.imgur.com/JQtsPbe.png)
+![](https://i.imgur.com/h9VaAxh.png)
+9. used `exit` to close ssh
+**Complete**
+
+---
+
+### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+##### 
+
+< Today's Progress: >
+
+
+< Thoughts: >
+---
+
+### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+##### 
+
+< Today's Progress: >
+
+
+< Thoughts: >
+---
+
+### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+##### 
+
+< Today's Progress: >
+
+
+< Thoughts: >
+---
+
+### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+##### 
+
+< Today's Progress: >
+
+
+< Thoughts: >
+---
+
+### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+##### 
+
+< Today's Progress: >
+
+
+< Thoughts: >
+---
+
+### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+##### 
+
+< Today's Progress: >
+
+
+< Thoughts: >
+---
+
 ### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
 ##### 
 

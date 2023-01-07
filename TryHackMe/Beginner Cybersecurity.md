@@ -64,6 +64,8 @@ The pros to these is that they do not need to be installed on computer of the us
 - This is simply a bad design that allows user into input and upload code to a site 
 ### Cryptographic Failures
 - This happens when weak keys are used on a system it wont be a challenge for a program to bust threw them when ABC = 123 and so on. 
+
+
 ---
 # Practical Example of Web Application Security
 This section went over the use of [[ Insecure Direct Object References (IDOR)]]
@@ -85,6 +87,7 @@ to show a image but if we simply change the `image002` to `image003` we can view
 - not properly securing files in a network can give a attacker access to documents and files that were not meant for public view such as credit card info and SSN
 ### Malicious Programs
 - Trojan horse can be used to Gain access into a system
+
 ---
 #  Practical Example of OS Security
 1. connected to OPENVPN
@@ -96,6 +99,7 @@ to show a image but if we simply change the `image002` to `image003` we can view
 7. we used `su - root` to long into the root and used password ` happyHack!NG` to get into the root user account
 8. from there we ls to find the flag and rip using `cat flag.txt`
 **THM{YouGotRoot}**
+
 ---
 # Network Security
 ![](https://i.imgur.com/qCh6fZq.png)

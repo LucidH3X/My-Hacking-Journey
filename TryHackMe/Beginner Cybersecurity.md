@@ -87,3 +87,28 @@ to show a image but if we simply change the `image002` to `image003` we can view
 - Trojan horse can be used to Gain access into a system
 ---
 #  Practical Example of OS Security
+1. connected to OPENVPN
+2. connected to the machine on tryhackme and open WSL2 
+3.  connected via `ssh sammie@10.10.175.43` with password `dragon`
+4. we that looked around and saw there was another user johnny
+5. we used `su - johnny` to long into that account and was prompted a password using the top 21 passwords used we found that password to be `abc123`
+6. once we got in we used `history` to see what he was up to we can see that he fucked up and typed the root password
+7. we used `su - root` to long into the root and used password ` happyHack!NG` to get into the root user account
+8. from there we ls to find the flag and rip using `cat flag.txt`
+**THM{YouGotRoot}**
+---
+# Network Security
+![](https://i.imgur.com/qCh6fZq.png)
+## [[Cyber Kill Chain]]
+was designed by Lockheed martin to help predict the process in which a attacker hits a system from start to stop. It uses 7 steps
+1.  Recon: Recon, short for reconnaissance, refers to the step where the attacker tries to learn as much as possible about the target. Information such as the types of servers, operating system, IP addresses, names of users, and email addresses, can help the attack’s success.
+2.  Weaponization: This step refers to preparing a file with a malicious component, for example, to provide the attacker with remote access.
+3.  Delivery: Delivery means delivering the “weaponized” file to the target via any feasible method, such as email or USB flash memory.
+4.  Exploitation: When the user opens the malicious file, their system executes the malicious component.
+5.  Installation: The previous step should install the malware on the target system.
+6.  Command & Control (C2): The successful installation of the malware provides the attacker with a command and control ability over the target system.
+7.  Actions on Objectives: After gaining control over one target system, the attacker has achieved their objectives. One example objective is Data Exfiltration (stealing target’s data).
+
+# Practical Example of Network Security
+In this exmaple we use the tool [[nmap]] which is a tool that is used to scan down Ip address
+

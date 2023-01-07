@@ -113,6 +113,7 @@ was designed by Lockheed martin to help predict the process in which a attacker 
 6.  Command & Control (C2): The successful installation of the malware provides the attacker with a command and control ability over the target system.
 7.  Actions on Objectives: After gaining control over one target system, the attacker has achieved their objectives. One example objective is Data Exfiltration (stealing target’s data).
 
+---
 # Practical Example of Network Security
 In this exmaple we use the tool [[nmap]] which is a tool that is used to scan down Ip address
 

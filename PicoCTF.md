@@ -2,7 +2,7 @@
 * [Info / Topics](README.md)
 * [Log - click here to see my progress](log.md)
 
-### Day 1: November 28, 2022 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
+### November 28, 2022 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
 ##### 
 
 < Today's Progress: > 
@@ -30,8 +30,7 @@ I need to figure out how to get get the man python to work pn python 3 or find a
 
 ### will finish later
 
-### Day 2: November 29, 2022 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
+---
 
 < Today's Progress: >
 Today I installed Unbuntu on my WSL2 o start working on a tool box to run on ctfs that I can build on the fly if needed. I also watched a video to help fill the gap on what I was missing on the last CTF for python. I was able to figure it out after learning about `chmod`
@@ -69,9 +68,6 @@ Need to work on maintaing my list of commands and tools to better help me when i
 
 --- 
 
-### Day 3: January 03, 2023 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
-
 < Today's Progress: >
 Woke up and ran a ctf at **6:30 am** to ge the brain moving before work
 
@@ -88,8 +84,6 @@ Im starting to figure out the `chmod +x` and when to use `cat` alot more now wit
 **Complete**
 
 ---
-### Day 4: January 05, 2023 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
 
 < Today's Progress: >
 Today I didnt get much done  CTF wise but was able to get one in before bed 
@@ -106,9 +100,6 @@ It will be a useful tool latter on to get around the system without having to ty
 **Complete**
 
 ---
-
-### Day 5: January 06, 2023 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
 
 < Today's Progress: >
 Today I got a CTF done at lunch at work and going to try and do another after work tonight to catch up a bit
@@ -135,64 +126,3 @@ Today was fun with SSH more of a refresher but still pretty fun
 
 ---
 
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
-
-< Today's Progress: >
-
-
-< Thoughts: >
----
-
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
-
-< Today's Progress: >
-
-
-< Thoughts: >
----
-
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
-
-< Today's Progress: >
-
-
-< Thoughts: >
----
-
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
-
-< Today's Progress: >
-
-
-< Thoughts: >
----
-
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
-
-< Today's Progress: >
-
-
-< Thoughts: >
----
-
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
-
-< Today's Progress: >
-
-
-< Thoughts: >
----
-
-### Day 0: February 30, 2016 <img src = "https://64.media.tumblr.com/c3e269f7c441828d7948847562557348/233bc3a97db6d4e4-d5/s500x750/3dd7a1a343e09c772063b2f85fddb403b7bb32b4.gifv" width = 32px> </h2>
-##### 
-
-< Today's Progress: >
-
-
-< Thoughts: >

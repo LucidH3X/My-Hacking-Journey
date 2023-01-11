@@ -127,4 +127,22 @@ Today was fun with SSH more of a refresher but still pretty fun
 **Complete**
 
 ---
+# Lets Warm Up
+1. For this one I used https://www.rapidtables.com/convert/number/ascii-to-hex.html to solve the problem
+2. I out in the hex decimal and translated it to get the answer.
+![[Pasted image 20230110191805.png]]
 
+**Complete**
+
+---
+# Warmed Up
+1. This one was close to the one before I have to look online for a conversion tool I used https://www.rapidtables.com/convert/number/hex-to-decimal.html?x=0x3D
+![](https://i.imgur.com/RT9XzDI.png)
+**Completed**
+
+---
+# 2 Warm 
+1. Another conversion this one I used http://extraconversion.com/base-number/base-10/base-10-to-base-2.html
+![](https://i.imgur.com/IZYvyvB.png)
+
+**Completed**

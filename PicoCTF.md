@@ -147,3 +147,13 @@ Today was fun with SSH more of a refresher but still pretty fun
 3. ![](https://i.imgur.com/IZYvyvB.png)
 
 **Completed**
+
+---
+# what's a net cat?
+1. This was a pretty fast one just had to connect to the server via net cat
+![](https://i.imgur.com/64Hh9jj.png)
+
+
+**Completed**
+
+---

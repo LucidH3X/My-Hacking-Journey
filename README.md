@@ -17,7 +17,7 @@
 	- tier 2
 - TryHackMe **Started 1-3-2023**
 	- pre security 
-	- beginner cybersecurity 
+	- intro cybersecurity **1-10-2023**
 	- complete beginner 
 - BanditOverTheWire
 	- Bandit

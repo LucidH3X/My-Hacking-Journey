@@ -116,4 +116,39 @@ was designed by Lockheed martin to help predict the process in which a attacker 
 ---
 # Practical Example of Network Security
 In this exmaple we use the tool [[nmap]] which is a tool that is used to scan down Ip address
+1. Started with downloading and setting up OpenVPN in  Linux
+2. Then connected to the host system
+3.  We started by running `nmap 10.10.216.124`
+![](https://i.imgur.com/FlUjqxv.png)
+4. We can see there is a ftp, ssh and http server up and running
+## [[ftp]] File transfer protocol - used to transfer files 
+## [[SSH]] Secure shell - used to remote log into a system
+## [[http]] Hypertext transfer protocol - used for the web
+5. had a issue with the ls command had to turn off firewall 
+![](https://i.imgur.com/JFvc3bS.png)
+6. I was able to grep the `secret.txt` file and got the password
+7. I then used `ssh root@targetip` and out the password to connect. Once connected I found another txt file doing ls and was able to `cat` the text file and get the flag for the box
+![](https://i.imgur.com/iwAeo58.png)
+8. had to cd into the home directory then into another directory to land the last flag
 
+---
+# Practical Example of Digital Forensics
+1.  Started by downloading the zip file into my system
+2. I extracted the zip file into my THM Directory 
+3. I open up the folder and got into file and found a pdf file I ran `pdfinfo`
+![](https://i.imgur.com/MqeLFz4.png)
+4. I had to install `exiftool` for this next section
+5. was able to get the geo info and run it in google maps `51.51442_N_, 0.08333_W_`
+![](https://i.imgur.com/GfulRes.png)
+51° 30' 51.90" N, 0° 5' 38.73" W. 
+6. Found the model number and closed the class
+
+---
+# Security Operations
+## Data Sources the list below is used by the SOC to help detect malicious behavior on a system
+### [[Server logs]] 
+### [[DNS activity]]
+### [[Firewall logs]]
+### [[DHCP logs]]
+
+##### This section was finished by a testing using a fake fire wall the attacker was sending packets and you had to mock blocks to the ip to stop the attack.

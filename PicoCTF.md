@@ -157,3 +157,31 @@ Today was fun with SSH more of a refresher but still pretty fun
 **Completed**
 
 ---
+# strings it
+1. I downloaded the file to my desktop and dragged it to VSC. 
+2. I `ctrl f` to search for the word `pico`
+3. The flag was in the middle 
+![](https://i.imgur.com/hJd0P1g.png)
+
+**completed**
+
+---
+# Bases
+1. What does this `bDNhcm5fdGgzX3IwcDM1` mean?
+2. so I used the site https://www.base64decode.org/ to figure this out
+3. I copy and pasted the tag and put it in to convert 
+![](https://i.imgur.com/WfjRw9I.png)
+
+**completed**
+
+---
+# first grep
+1. I started this out by downloading the file to my PicoCTF folder
+2. I then tried to run `cat` to view the file and had no luck
+3. I looked up the [[grep]] guide and found that I can run the command `grep 'topic to search' file name` to locate the item we are looking for the the file
+4. Ran command and found the Flag
+![](https://i.imgur.com/Lq2fcH5.png)
+
+**completed**
+
+---

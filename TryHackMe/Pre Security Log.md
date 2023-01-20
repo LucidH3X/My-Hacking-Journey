@@ -117,3 +117,130 @@ When a device connects to a network it uses the [[DHCP(Dynamic Host Configuratio
 - Once the data is received and sorted through it begins to sort the data into smaller chunks called [[Packets]] one at a time
 - This is done to protect data loss so that if the the connection goes down only a part of the data was sent and lost rather then the full stream
 # [[Layer 4  - Transport ]]
+![](https://i.imgur.com/67Apaoi.png)
+## When data is sent between devices it depends on two types of protocols
+1. [[TCP (Transmission control protocol)]]
+2. [[UDP (User datagram protocol)]]
+### [[TCP (Transmission control protocol)]]
+#### uses a error checking system to ensure data is intact the reason behind this is because TCP is most commonly used such as email clients, file sharing as well as web browsing were data needs to be complete and cant risk being broken up. The error checking system verifies that all data is received prior to viewing it so that the data wont come in broken.
+![](https://i.imgur.com/LTlL2Dq.png)
+### [[UDP (User datagram protocol)]]
+#### uses less data and does not check if the data is complete this is good for small chunks of data being sent over a network the issue is even if the data is corrupt or incomplete it will still send over the network to the the user. The pro to UDP over TCP is speed the down side is completion of data as stated before for larger files we risk data being lost as we can see in the picture below. This works well with video streaming as a skip in frame is OK in most cases.
+![](https://i.imgur.com/PjcBPMm.png)
+# [[Layer 3 - Network]]
+![](https://i.imgur.com/MRCmASq.png)
+### This layer deals with the routing of information and data, It uses two types or protocols to determine the fastest route to get data from the host to the device with little time. It uses:
+1. [[OSPF (Open shortest path first)]]
+2. [[RIP (Routing information protocol)]]
+#### Everything on this layer is dealt with via [[IP Address]]
+# [[Layer 2 - Data Link]]
+![](https://i.imgur.com/xS4fLX4.png)
+### This layer is uses the [[IP Address]] and [[MAC Addresses (Media Control Access)]] to assign it self to the [[NIC (Network interface card)]]
+#### this later takes the IP and MAC addresses and assigns it to the NIC so that that it can be recognized on a network it litterly links the foot print to the card
+# [[Layer 1 - Physical]]
+![](https://i.imgur.com/MHkHmij.png)
+### This is the hardware layer in this layer you can find things like cables
+![](https://i.imgur.com/yHBr8CA.png)
+
+---
+# Packets and frames
+## Are small pieces of data that are formed together. 
+### **Frames** are located on the data link layer and do not contain a IP address They are are the host for the packets used to travel a network.
+#### **Packets** are data that does not contain a IP address 
+### **Packets** are tiny segments of data that get sent over a network 
+#### **Packets** are good when sending small bits of data because they are broken up into smaller sections and sent over the network rather then in one large frame this causes less a chance of bottle necking a system. 
+![](https://i.imgur.com/veNfAXY.png)
+
+# TCP/IP (The Three-Way Handshake)
+## [[Three-way-handshake]] **Syn, Syn/Ack, Ack**
+### _TCP opening a connection_ 
+- This is done threw a series of packets sent two and from two devices to help establish a connection this is done by method seen below
+#### **SYN**
+- This is the first step the devices sends out a packet to initiate the process 
+#### **SYN/ACK**
+- This packet is then sent to acknowledge that the packet was received and that the request for synchronization was received 
+#### **ACK**
+- This packet is the acknowledgment packet form the server or client that shows that the series of data or messages have been sent and received properly  
+#### **DATA**
+- Once the connection is made data is sent via this route 
+#### **FIN**
+- This is used once the connection is done to "Cleanly close" the connection
+#### **RST**
+- This only happens if the connection fails or has issues is a emergency closure of the connection happens if a connection was lost or there was data corrupted
+![](https://i.imgur.com/Xglylno.png)
+
+### _TCP closing a connection_
+#### **FIN**
+- It starts with a closure packet being sent 
+#### **ACK**
+- The receiving  devices then has to acknowledge that it was revived 
+#### **FIN**
+-  The receiving device then sends it own closure packet
+#### **ACK**
+- Then the main deceives ackowldges it receives it and the closure happens 
+![](https://i.imgur.com/6Yy1WBc.png)
+
+# UDP/IP
+- User datagram protocol is like **tcp** Biggest difference is that its stateless and does not need a constant connection between the two devices 
+- The three way handshake does not occur in UDP nor do the devices sync
+
+# Ports 101
+#### A few of the most common ports in cyber-security are 
+## 21
+- [[FTP]] **File transfer protocol**
+## 22
+- [[SSH]] **Secure shell**
+## 80
+- [[HTTP]] **Hyper text transfer protocol**
+## 443
+- [[HTTPS]] **Hyper text transfer protocol secure**
+## 445
+- [[SMB]] **Server message block**
+## 3389
+- [[RDP]] **Remote desktop protocol**
+
+---
+
+# Introduction to Port Forwarding
+## [[Port Forwarding]]
+- Opens up ports on a network to route traffic to different areas 
+- A router is used / needed to Port forward 
+# Firewalls 101
+- Firewall is used to help determine what data can enter and leave a network 
+- Firewalls come in two flavors
+## Stateful
+-  A Stateful firewall requires a full connection and uses a lot of resources to do its job. If the connection from a host is bad it will deny the full host from connecting
+## Stateless
+- A stateless Firewall checks individual packets and and will block those that are fragmented or corrupt they also use less resources and they issue is these type are not that smart they are rule based and if a rule is not meant it will not let the packet pass through. These work best with DOS attacks 
+# VPN Basics
+#### VPN is used to connect multiple devices on a network under one network to mask there identity and prevent data form being scraped 
+##### This is done through different technologies such as:
+1. [[PPP]]
+2. [[PPTP]]
+3. [[IPSec]]
+
+---
+
+# What is DNS?
+### DNS or (Domain Name System)
+#### is a way of viewing the IP of a website in a simple form such as 123.124.12.34 = tryhackme.com**Which is a lot more reasonable to remember then the full IP **
+![](https://i.imgur.com/A7OpzQV.png)
+
+# Domain Hierarchy
+![](https://i.imgur.com/B7K0s0I.png)
+### TLD (Top level domain)
+- is the section to the far right of a site example: `tryhackme.com` the TLD would be `.com` some other examples would be `.com,.org.info,.io,.net`
+### Second level domain
+- With `tryhackme.com` as a example to `tryhackme` is the Second level domain the max it can be is 63 characters 
+### Subdomain
+- with `admin.tryhackme.com` the `admin` is the subdomain as it sits to the far left of the second level domain the max it and be is 253 characters 
+# Record Types
+## DNS record types
+### A record
+- resolve to IPv4 addresses, for example 104.26.10.229
+### AAAA record
+- resolve to IPv6 addresses, for example 2606:4700:20::681a:be5
+### CNAME record
+### MX record
+### TXT record
+# HTTP in detail

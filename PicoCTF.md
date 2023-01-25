@@ -183,3 +183,48 @@ Today was fun with SSH more of a refresher but still pretty fun
 **completed**
 
 ---
+# code book
+1. I started by downloading both files with `wget` into my PicoCTF directory 
+2. Once both files were on my computer I used `python 3` and the file name for the `code.py` and ran it which gave me the flag
+![](https://i.imgur.com/9mj470p.png)
+
+**completed**
+
+---
+# covertime.py
+1. `wget` the python file 
+2. I then found a decimal to Binary converter at https://www.rapidtables.com/convert/number/decimal-to-binary.html
+3. I then ran the file I downloaded with `python3 filename`
+4. I was given a question to convert the decimal to binary, I used the site I found and got the answer. I typed the answer in the terminal and got the flag
+![](https://i.imgur.com/VYP2BI6.png)
+
+**Completed**
+
+---
+# fixme1.py
+1. `wget` to download the file
+2. So after downloading the file I was going to toss it into VIM but used VSC instead I saw that the error it gave was that the indention on line 20 was wrong. After looking I noticed that the word `print` was tabbed over so I backspaced it into place then ran it for the flag
+![](https://i.imgur.com/rAMAYAj.png)
+
+**completed**
+
+---
+# fixme2.py
+1. `wget` to download the file
+2. opened up file is VSC
+3. Ran and found error log
+4. We found there was a error in the syntax of `=` I changed it to a `==` and issue was fixed
+![](https://i.imgur.com/d19FjJW.png)
+
+**completed**
+
+---
+# Glitch cat 
+1. I ran `nc saturn.picoctf.net 53933` and turned up
+![](https://i.imgur.com/tf9DS2z.png)
+2. This was a pain in the ass Had to input the string in python and print it I had to look up a guide to figure this one out
+![](https://i.imgur.com/k3b9okN.png)
+
+**completed**
+
+---

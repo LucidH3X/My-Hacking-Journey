@@ -244,3 +244,152 @@ When a device connects to a network it uses the [[DHCP(Dynamic Host Configuratio
 ### MX record
 ### TXT record
 # HTTP in detail
+## Hypertext transfer protocol
+- Is a set of rules used to transfer data via html for websites
+## Https - Hypertext transfer protocol secure
+- is the same as the above except the data is encrypted 
+---
+# Request and response
+![](https://i.imgur.com/GXqO5Wi.png)
+#### A [[URL]] is broken into sections
+1. Scheme - Instructs what protocol to use such as http, https, ftp
+2. User - is the auth for the login
+3. Host - is the domain name or IP address you are connecting to
+4. Port 
+5. Query string - extra info
+6. Fragment - reference to a pages location 
+````http
+GET / HTTP/1.1
+Host: tryhackme.com
+User-Agent: Mozilla/5.0 Firefox/87.0
+Referer: https://tryhackme.com/
+````
+#### The above segment is broken down as follows
+1. This request is using the get method it lists what HTTP protocol we are using
+2. The host name
+3. What web server we are using 
+4. What the referrer is
+5. Blank line to break to inform the request is done
+#### **Example Response:**
+````http
+HTTP/1.1 200 OK
+Server: nginx/1.15.8
+Date: Fri, 09 Apr 2021 13:34:03 GMT
+Content-Type: text/html
+Content-Length: 98
+
+<html>
+<head>
+    <title>TryHackMe</title>
+</head>
+<body>
+    Welcome To TryHackMe.com
+</body>
+</html>
+````
+Only new thing here is line 3 , 4 and 5 
+3. Data and time request was make
+4. The type of content header
+5. The length of the response
+---
+### **Content-length** tells the browser how much data to expect
+# [[HTTP methods]]
+## Below are some of the most common methods used
+### [[GET Request]]
+- used to get info on a web server
+### [[POST Request]]
+- used to submit data to a web server
+### [[PUT Request]]
+- used to submit update data to a web server
+### [[DELETE Request]]
+- used to remove or delete data from a web server
+# [[HTTP - Status Codes]]
+#### Status codes can be broken down into 5 different ranges
+![](https://i.imgur.com/zSpetdD.png)
+#### Common Status codes
+![](https://i.imgur.com/CVGeoxi.png)
+![](https://i.imgur.com/TjoGrEv.png)
+# [[Headers]]
+## Headers are not needed to view a site but when not using them it can cause the site to be hard to use and view
+### Common request headers
+![](https://i.imgur.com/qzE7512.png)
+### Common response headers
+![](https://i.imgur.com/OcqSRqf.png)
+
+---
+# Cookies
+##### are used as a authentication method for websites they are viewable but hard to understand they use tokens rather then passwords
+#### You can view them by looking at the browser developer tools under the network tab
+###### The header used to save cookies on you computer is the set-cookie header
+---
+# Making request
+- In this room we tried out some commands using Get, post and delete.
+---
+# How websites work
+## Web-server **Is a dedicated computer handling your request**
+![](https://i.imgur.com/cftjWcx.png)
+### There are two major components that make up a website 
+1. Front-end **Client side**
+	- The way the browser process and renders a site for viewing 
+1. Back-end  **Server side**
+	- A server that process my requests and commands
+
+---
+
+# HTML
+## Websites are made using 3 main types of code
+### HTML **Used to build a side and give it structure**
+### CSS **Used to make a site styled**
+### Java **Used to add complex features**
+#### HTML structure
+![](https://i.imgur.com/qxC572S.png)
+##### `HTML` header is the there is a start and end to the tag 
+##### `head` contains the information on the page
+##### `body` shows the elements that are on the page 
+##### `h1` defines a large heading
+##### `p` defines a paragraph 
+##### `img` image
+##### `button` button
+## etc...
+
+---
+# [[JavaScript]]
+- JavaScript is one of the most used langues in the programming world, while HTML is used to design a page. JavaScript is used to control the functions of its content
+- JavaScript allows us to program things such as buttons and other interactive elements to a web page
+#### It can be uploaded on to the html via two methods
+1. `<script>`script
+2. `<src>`source
+#### We can also do things like on click or on hover with JavaScript
+---
+# Sensitive Data Exposure
+![](https://i.imgur.com/ZkP2JOb.png)
+- This happens when a user forgets to remove sensitive notes or login info from the html file before putting the site live this is why we need to always check the html of a site prior to a attack to see what info the admin might of forgotten to leave
+
+---
+# HTML Injection
+- This happens when a web developer fails to sanitize the java and html inputs on a page. For instance a page with a name input when the user puts there name in the box and submits it the name appears on the page. What stops the attacker from putting there own JavaScript or html in the text box and sending it via the site. This is HTML Injection in its simplest form as we can see below.
+![](https://i.imgur.com/CNJ0kj0.png)
+##### In the assignment we used the text field provided and did a injection for a site and hid its identity from the victim using
+![](https://i.imgur.com/Q9qOv4z.png)
+
+---
+# Other components
+#### **Load Balancers**
+- There main job is to distribute server load, when you connect to a site that uses a load balancer it starts buy checking servers its connected to see which one can handle the request. I then sends you there, it does with each user and sends them to the server that has the most room and spreads out users so the servers don't get bogged down. It also does periodic checks on the server.
+![](https://i.imgur.com/WBWgaOY.png)
+#### **CDN (Content Delivery Networks)**
+- This is a server that can host things like images and JavaScript when a user connects it will send them to the server that is closest and best serve them for there needs. I litterly delivers content.
+#### **Databases**
+- Stores info in text files to servers there is many types not limited to MySQL, MSSQL, MongoDB, GraphQL, Postgres, and more;
+#### **WAF (Web Application Firewall)**
+- Works as firewall but for a network rather then a device 
+![](https://i.imgur.com/7L1kZXt.png)
+
+---
+# How Web servers work.
+##### Web-server
+- Is software that listens for incoming connections and connects the clients to the content via HTTP protocols 
+##### Virtual Hosts
+- Are text based files that are used to help match the host name to the request. If it finds a match it the correct site will be provided if the match is not there it will default to the main page
+##### Static Vs. Dynamic Content
+- 

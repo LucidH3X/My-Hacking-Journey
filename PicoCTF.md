@@ -228,3 +228,46 @@ Today was fun with SSH more of a refresher but still pretty fun
 **completed**
 
 ---
+# HashingJobApp
+1. so for this one I used NC to talk to the server
+2. I then looked up a MD5 hash generator
+3. I copy pasted the strings I generated into the terminal to advance the levels till I got a flag
+![](https://i.imgur.com/tR6zaHi.png)
+
+**completed**
+
+---
+# Pw crack1
+1. I stated by downloading both files and then using `chmod +x on the .py file` after running it I was prompted with a password request
+2. I then closed out of it and tried to cat the other file with zero luck
+3. Next up was using `nano` on the .py which gave me
+![](https://i.imgur.com/9FQwIz4.png)
+4. I scrolled down to the bottom and found the password in Nano
+5. reopen the .py and put it for the flag
+![](https://i.imgur.com/OdZGEsF.png)
+
+**completed**
+
+---
+# Pw crack2
+1. I started by downloading the 2 files then running the `chmod +x` on the .py to make it a executable 
+2. SO this got a bit tricky I open up the `.py` in VSC to look at it I could see that it in the code there was a section that shows the password but it was clocked behind a code. I ran the code in python using print and it gave me the password. I did have to use a hint in a web post at one point because I didn't think about using print I kept looking on how to decry-pt it online using different sites to decode it but failed I was on the right track but making it harder then it needs to be. 
+![](https://i.imgur.com/KTSOI5z.png)
+
+**completed**
+
+---
+# Pw crack3
+1. started by using `wget` on the files on the ctf
+2. then I used `chmod +x` on the .py file as normal
+3. we then open the .py with VSC
+4. we then had to install bvi on my system so that we can view the hash.bin
+![](https://i.imgur.com/AdPXt2F.png)
+`00000000  65 D9 C6 8E 03 80 79 69 85 1A 83 B2 8B BE BE D1             e.....yi........
+`
+5. even after viewing that hash I was not able to figure it out so I went back to VSC to look at the script and just tried the numbers it listed as passwords there was 7 I tried to decry-pt them all with converters and found nothing. But after a few tries I put the right one in and got the password for the flag
+![](https://i.imgur.com/SrYHnOc.png)
+
+**completed**
+
+---

@@ -392,4 +392,137 @@ Only new thing here is line 3 , 4 and 5
 ##### Virtual Hosts
 - Are text based files that are used to help match the host name to the request. If it finds a match it the correct site will be provided if the match is not there it will default to the main page
 ##### Static Vs. Dynamic Content
-- 
+- **Static content** is content served from the server that never changes such as pictures or graphics , JavaScript or CSS 
+- **Dynamic content** is content that can change with different request Such as a latest entry section on a blog or a bank balance that changes with deposit and withdrawals
+- **Back-end** these are things that are done behind the scene in the code
+- **Front-end** these are done in the open on the front page of the browser
+---
+# Linux fundamentals part 1 
+- _Linux is based on_ **Unix**
+- _Linux was release on_ **1991**
+---
+# Running Your First few Commands
+[[Linux Commands]]
+- **Commands used in this class I stored on this file not much to note as I knew most of them If I find one I don't know ill post that in my notes here**
+##### pwd 
+- Is used to list out the full directory you are in such as `test/etc/folder/file.txt`
+---
+# Searching for files
+##### find
+Used to help find a specific file in a list of directories 
+`find -name password.txt`
+you can use a wild card to find extensions such as `*.text`
+##### grep
+is used to find words in a file lets say we are looking for admin a password file we can use `grep 'admin' password.txt` to search the `password.txt` for the word admin
+
+---
+# Introduction to [[Shell Operators]]
+
+##### &
+- this allows you to run commands in the background of terminal
+##### &&
+- this allows you to run multiple commands together
+##### >
+- we can use this to redirect a command to another spot
+##### >>
+- this is the same as above but  appends the output rather than replacing (meaning nothing is overwritten).
+---
+# Accessing Your Linux Machine Using SSH (Deploy)
+#### [[SSH]] or secure shell
+- Is used to send data to a machine when we connect any thing we send to the other machine via ssh is encrypted including keystrokes
+##### Example
+`ssh tryhackme@10.10.191.23`
+
+---
+# Introduction to flags and switches
+So when searching a system we use `ls` the issue with this is it will not list hidden folders. We can list these by adding a `-a` after ls this tells the command to search for all folders
+
+---
+# Files system interaction continued 
+##### touch
+used to make files
+##### mkdir
+used to make folder
+##### cp 
+used to copy a file
+- example `cp note note2`
+##### mv
+used to move a file or folder
+- example `mv note2 note`
+##### rm
+used to remove a file or folder
+- If you want t remove a folder you need to add `-r` next to it such as `rm -r tryhackme` to delete the folder
+##### file
+used to see file type
+# Permissions 101
+##### -l
+- Breaks down into 10 columns example `ls -l`
+![](https://i.imgur.com/2dm23nC.png)
+- this is helpful because it allows us to see what has read, write and execute access 
+##### su
+- Is used to switch users example `su user2`
+# Common [[Linux Directories]]
+##### /etc
+- this folder is the common place folder it is used to **store system files that are used by the OS** such as password files and  shadow files
+##### /var
+- this folder stores log files and data used across different users
+##### /root
+- this is the default home directory 
+##### /tmp
+- this place is a temp storage items stored here don't need to be accessed a lot and when not used after a few days 
+
+---
+# Terminal Text Editors
+## [[nano]] is a text edit program that can be used in terminal
+### Common Commands
+#### File creation `nano filename`
+## [[vim]] is a text edit program that can be used in terminal
+- [[vim]] works on on terminals unlike [[nano]] which might need to be installed
+---
+# General/Useful Utilities
+##### wget
+- is used to download files via HTTP
+- example `wget https://assests.tryhackme.com/pass.txt`
+##### Scp
+- is a secure file transfer between 2 servers via ssh
+- example `scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt`
+- this allows us to copy a file from the machine we are on using a user name and password to another one
+###### If we dont know the user name and password of the machine we would use a command like 
+- `scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt`
+- This allows me to copy from a remote computer im not logged into
+##### Python web server
+- Using the command `/tmp# python3 -m http.server` as a example we can use python to start up a web server
+- to stop the web server we use `ctrl + c`
+![](https://i.imgur.com/ixxyScc.png)
+1. So to make this work I launched the web server with python then had to open another terminal and ssh into the server then I had to wget the file for the flag it was kinda long and drag out but I figured it out as we can see in the above image. You are unable to do it if you dont have the web server running in a tab like we do the openvpn
+
+---
+# Processes 101
+## Processes are found on the kernel using the command `ps`
+- They show up as PID
+- to see Processes ran by other users we can use the command `ps aux`
+## To view Processes in real time we can use `top`
+- this allows us to have a terminal window that will refresh every 10 seconds with the top processes running to better help monitor them
+## To kill a Processes we us `kill pid`
+- example `kill 1773`
+##### SIGTERM 
+- Kill the process, but allow it to do some cleanup tasks beforehand
+##### SIGKILL 
+- Kill the process - doesn't do any cleanup after the fact
+##### SIGSTOP 
+- Stop/suspend a process
+##### systemctrl
+- this allows us to interact with systemd which is the main process that start on boot all other processes that get started are a sub processes of systemd
+	- we do this with `systemctrl [option] [service]`
+- This allows us interact with systemd which normal we are unable to
+###### Options for systemctrl
+-   Start
+-   Stop
+-   Enable
+-   Disable
+#### We can foreground or background a process in terminal
+- To background a process we can use `ctrl-z` this works well with things like scripts it will continue to run the script in the background until we `ctrl-z` again to turn it off
+- to foreground a process  we use the command `fg` example `/var/opt# fg`
+
+---
+# Maintaining Your System: Package Management

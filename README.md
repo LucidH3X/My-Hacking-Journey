@@ -8,22 +8,22 @@
 * [Info / Topics](README.md)
 * [Log - click here to see my progress](log.md)
 
-## 5 Month goals by may 2023
-- Security + cert **Started 1-9-2023**
+## Goals by Winter 2023
+- Security + cert 
 - PicoCTF 50%
 - HTB 
 	- tier 0
 	- tier 1
 	- tier 2
-- TryHackMe **Started 1-3-2023**
+- TryHackMe 
 	- pre security 
-	- intro cybersecurity **1-10-2023**
+	- intro cybersecurity 
 	- complete beginner 
 - BanditOverTheWire
 	- Bandit
 	- Natas
 	- Leviathan 
-
+	
 ## <h2> Learning Path <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
  
 - Security

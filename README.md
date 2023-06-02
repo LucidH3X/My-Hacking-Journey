@@ -5,8 +5,6 @@
 
 
 ## Contents <img src = "https://c.tenor.com/RkILblKtLTEAAAAd/ms-wake-up.gif" width = 32px> </h2>
-* [Info / Topics](README.md)
-* [Log - click here to see my progress](log.md)
 
 ## Goals by Winter 2023
 - Security + cert 

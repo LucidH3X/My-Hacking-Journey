@@ -34,9 +34,9 @@
 
 **Supplemental Learning** <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
-- Tryhackme Full complete  (Started: ** 1-3-2023** )
+- Tryhackme Full complete  (Started: ** ** )
 
-- PicoCTF Full Sweep (Started: **12-28-2022** )
+- PicoCTF Full Sweep (Started: **  ** )
 
 - Hackthebox Full complete
 

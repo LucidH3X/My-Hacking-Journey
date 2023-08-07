@@ -6,31 +6,27 @@
 
 ## Contents <img src = "https://c.tenor.com/RkILblKtLTEAAAAd/ms-wake-up.gif" width = 32px> </h2>
 
-## Goals by Winter 2023
-- Security + cert 
-- PicoCTF 50%
-- HTB 
-	- tier 0
-	- tier 1
-	- tier 2
-- TryHackMe 
-	- pre security 
-	- intro cybersecurity 
-	- complete beginner 
-- BanditOverTheWire
-	- Bandit
-	- Natas
-	- Leviathan 
+## Goals by summer 2024
+- Security + cert (June 2024 test is moving to a new version!)
+- PicoCTF 50% ( )
+### HTB
+- tier 0
+- tier 1
+- tier 2
+### TryHackMe
+- pre security
+- Introduction to cybersecurity
+- complete beginner
+### BanditOverTheWire
+- Bandit
+- Natas
+- Leviathan
 	
 ## <h2> Learning Path <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
  
-- Security
-
-- eJPT
-
-- eCPPT
-
-- OSCP
+- Security +
+- CYSA +
+- CASP +
 
 **Supplemental Learning** <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
@@ -46,9 +42,12 @@
 
 - Python Class
 
-- Bash Class 
+- Bash Class
+
+- Golang Class
 
 - Linux Class
+
 
 ## Classes taken <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 

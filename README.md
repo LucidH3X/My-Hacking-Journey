@@ -6,33 +6,34 @@
 
 ## Contents <img src = "https://c.tenor.com/RkILblKtLTEAAAAd/ms-wake-up.gif" width = 32px> </h2>
 
-## <h2> Goals by summer 2024 <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
-- Security + cert (June 2024 test is moving to a new version!)
+## <h2> Goals by  2025 <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
+- Google Cybersecurity cert
 - PicoCTF 50% ( )
 ### HTB
 - tier 0
 - tier 1
 - tier 2
-### TryHackMe
-- pre security
-- Introduction to cybersecurity
-- complete beginner
 ### BanditOverTheWire
 - Bandit
 - Natas
 - Leviathan
-### sourcing.games
-- Level 36
- 
+### Hackerboxes
+- Basics
+- Soldering
+- Core
+### FreeCodeCamp
+- Scientific Computing with Python
+- Information Security
+### Bonus
+- Advent of Cyber 2024
+- 90 Days of Python
+
+
 ## <h2> Learning Path <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
  
-- Security +
-- CYSA +
-- CASP +
+- Google Cybersecurity Certification 
 
 **Supplemental Learning** <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
-
-- Tryhackme Full complete  (Started: ** ** )
 
 - PicoCTF Full Sweep (Started: **  ** )
 
@@ -59,5 +60,4 @@
 
 ## Notes <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
-* Social links https://lucidh3x.uwu.ai/ Follow me!
-
+* Social links https://beacons.ai/lucid.h3x Follow me!
